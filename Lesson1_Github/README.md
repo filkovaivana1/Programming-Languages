@@ -70,8 +70,11 @@ Now, we will also make another changes by creating new Java project in IntelliJ 
 The program is simple "Hello world !" printing 
 ![image](https://github.com/user-attachments/assets/e4bacadf-a3e2-478f-9a27-ebce694947ba)
 
+Next, in order to add our code we first need to set our current working dir two levels above where we inicialized the local repository 
 ![image](https://github.com/user-attachments/assets/cec03a36-4d3f-4af8-9c2e-ebe72a35bfe3)
 
+We commit our changes
 ![image](https://github.com/user-attachments/assets/5765c0d0-9d40-4835-b1a9-eee7ce25432b)
 
+And finaly we push everything we commited on the remote git repository
 ![image](https://github.com/user-attachments/assets/f2c1fe58-41d3-4c49-a804-00dd95f32d69)
