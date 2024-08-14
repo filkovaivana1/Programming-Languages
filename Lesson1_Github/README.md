@@ -6,13 +6,7 @@ First, we need to create an github account
 We do that by entering email, password and username:
 ![image](https://github.com/user-attachments/assets/840b1948-2541-48c3-8150-caa154b24db9)
 
-After that we are required to verify our account:
-![image](https://github.com/user-attachments/assets/2edc188d-c9f8-48e1-990a-2c75f58671b6)
-
-We verify our account by entering our code sent on email
-![image](https://github.com/user-attachments/assets/fe30e7d8-47a0-49a6-a0fe-76a1da9005b9)
-
-After finishing verification we login to our account:
+After that we are required to verify our account by entering code sent on email. After finishing verification we login to our account:
 ![image](https://github.com/user-attachments/assets/aee6c111-275e-4108-80fc-8bb0c4066f10)
 
 After successful login we choose create repository
