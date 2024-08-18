@@ -49,15 +49,15 @@ Following the github flow operations, create your Github repository and create a
 ### Solution
 
 **TO DO** STEPS:
-- **Create an github account by entering email, password and username**
+- **Create an github account** by entering email, password and username
 
-- **Verify our account by entering code sent on email.** 
+- **Verify our account** by entering code sent on email. 
 
-- **Login to our github account**
+- **Login** to our github account
 
-- **Choose create repository and give the repostory name.**
+- **Choose create repository** and give the repostory name.
 
-- **After creating new repository, we see all required commands to push already existing and new repository** (we follow the commands for creating new repository):
+- **After creating new repository** we see all commands required to push already existing and new repository (we follow the commands for creating new repository):
 ```
 echo "# Programming-Languages" >> README.md
 git init
@@ -68,7 +68,7 @@ git remote add origin https://github.com/filkovaivana1/Programming-Languages.git
 git push -u origin main
 ```
 
-- **Create simple print "Hello world !" Java project which after creating should look like:**
+- **Create simple "Hello world !" Java project** which after creating should look like:
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -86,37 +86,37 @@ public class Main {
 ```
 
 The remaining steps we do this by using command prompt approach. 
-- **Open cmd and set our current working directory to the project directory (or simply open terminal from your project in intelliJ)**
+- **Open cmd and set our current working directory** to the project directory (or simply open terminal from your project in intelliJ):
 ```
 cd [project_directory]
 ``` 
 
-- **Initialize empty git repository locally (if already not done while creating the Java project)**
+- **Initialize empty git repository locally** (if already not done while creating the Java project):
 ```
 git init
 ```
 
-- **Add main branch**
+- **Add main branch**:
 ```
 git branch -M main
 ```
 
-- **And set the remote origin to be our remote repository, which means everything we push will go there**
+- **And set the remote origin** to be our remote repository (which means everything we push will go there):
 ```
 git remote add origin https://github.com/filkovaivana1/Programming-Languages.git
 ```
 
-- **Add our code in the local git repository**
+- **Add our code in the local git repository**:
 ```
 git add .
 ```
 
-- **We commit our changes**
+- **Commit our changes** with specific message according to the changes done:
 ```
 git commit -m "This is my first commit, let's have some fun!"
 ```
 
-- **And finaly we push everything we commited on the remote git repository**
+- **Finaly push everything we commited on the remote git repository**
 ```
 git push -u origin main
 ```
