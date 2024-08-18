@@ -17,10 +17,8 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 - **Create an account on GitHub**: Use `Files.createFile(Path)` for files or `Files.createDirectories(Path)` for directories.
 
-- **Learn the key principles of collaborative working**
-  - Branches
-  - Commits
-  - Pull requests
+- **Learn how to post your work on GitHub using the key principles of collaborative working**
+  
 - **Learn how to download the code for your own use.**
 
 
@@ -28,9 +26,9 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 - **Initialize empty repository**: Use `git init`
 
-- **Add changes in our working directory to the staging area **: Use `git add` to add changes in our working directory to staging area where we prepare a snapshot of our project’s current state before committing it to the repository. It tells Git what updates we want to include to a particular file in the next commit. However, changes are not actually recorded until runing git commit.
+- **Add changes in our working directory to the staging area**: Use `git add` to add changes in our working directory to staging area where we prepare a snapshot of our project’s current state before committing it to the repository. It tells Git what updates we want to include to a particular file in the next commit. However, changes are not actually recorded until runing git commit.
 
-- **Save the changes - and leave a specific message for the changes done **: `git commit -m `.
+- **Save the changes - and leave a specific message for the changes done**: `git commit -m `.
 
 - **Define the remote repository**: `git remote add origin [repo-url]` and `git remote set-url origin [repo-url]` before push your code to the master branch of the remote repository defined with "origin" and -u let you point your current local branch to the remote master branch.
 
@@ -44,7 +42,7 @@ Remember, working with files and directories is a common task that can involve c
 As alternative to GitHub we can also use: Gitlab, Bitbucket, SourceForge and so on, but here we will stick on working with Github.
 
 
-# Github exercises while working with in Java
+# Github exercises while working with Java
 
 ## Example 1: Upload your first Java project to Github
 
