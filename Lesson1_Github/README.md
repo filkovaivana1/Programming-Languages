@@ -47,6 +47,7 @@ As alternative to GitHub we can also use: Gitlab, Bitbucket, SourceForge and so 
 Following the github flow operations, create your Github repository and create a new simple Java "Hello world" project, which you will upload on the Github repository.
 
 ### Solution
+
 **TO DO** STEPS:
 - **Create an github account by entering email, password and username**
 
