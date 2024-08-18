@@ -34,9 +34,7 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 - **Upload content from local to remote repositorys**: `git push origin 'branch-name'` to send (or push) the commits from our local branch in our local Git repository to the remote repository. 
 
-- **Download from exising remote repository **: `git clone [repo-url]`
-
-Remember, working with files and directories is a common task that can involve complex operations and error handling, especially when dealing with file system permissions, symbolic links, and large directories.
+- **Download from existing remote repository**: `git clone [repo-url]`
 
 
 As alternative to GitHub we can also use: Gitlab, Bitbucket, SourceForge and so on, but here we will stick on working with Github.
@@ -46,12 +44,9 @@ As alternative to GitHub we can also use: Gitlab, Bitbucket, SourceForge and so 
 
 ## Example 1: Upload your first Java project to Github
 
-Following the github flow operations, create a new simple Java "Hello world" project, and upload it on your Github repository.
+Following the github flow operations, create your Github repository and create a new simple Java "Hello world" project, which you will upload on the Github repository.
 
 ### Solution
-
-We will do this by using command prompt approach. 
-
 **TO DO** STEPS:
 - **Create an github account by entering email, password and username**
 
@@ -89,7 +84,8 @@ public class Main {
 }
 ```
 
-- **Open command prompt and set our current working directory to the project directory (or simply open terminal from your project in intelliJ)**
+The remaining steps we do this by using command prompt approach. 
+- **Open cmd and set our current working directory to the project directory (or simply open terminal from your project in intelliJ)**
 ```
 cd [project_directory]
 ``` 
