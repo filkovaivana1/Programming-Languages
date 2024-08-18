@@ -54,7 +54,7 @@ Following the github flow operations, create a new simple Java "Hello world" pro
 
 We will do this by using command prompt approach. 
 
-TO DO STEPS:
+- **TO DO STEPS**:
 - **Create an github account by entering email, password and username**
 
 - **Verify our account by entering code sent on email.** 
