@@ -121,12 +121,12 @@ git commit -m "This is my first commit, let's have some fun!"
 git push -u origin main
 ```
 
-*Pushing for the frist time may require some preauthorization: 
+*Note: Pushing for the frist time may require some preauthorization
 
 ![image](https://github.com/user-attachments/assets/55ad39c6-239f-49a6-8f86-7fc768d21b86)
 
 
-After successful preauthorization we continue pushing our changes and if everything as it should be, we get response message that pushing code is done:
+After successful preauthorization we continue pushing our changes and if everything as it should be, we get response message that last operation is done:
 
 ![image](https://github.com/user-attachments/assets/6a6afcb3-618a-4b89-a97c-d57d28a902fc)
 
@@ -135,27 +135,27 @@ After successful preauthorization we continue pushing our changes and if everyth
 In our newly created repository, create 'README.md' and upload it to your github repository.
 
 ### Solution
-Open command prompt and set our current working directory to the project directory (or simply open terminal from your project in intelliJ)
+- **Open cmd and set current working directory** to the project directory (or simply open terminal from your project in intelliJ):
 ```
 cd project_directory
 ``` 
 
-Create md file:
+- **Create md file**:
 ```
 echo "# Programming-Languages" >> README.md
 ```
 
-Add our code in the local git repository
+- **Add our code in the local git repository**
 ```
 git add .
 ```
 
-Commit our changes
+- **Commit our changes**
 ```
 git commit -m "Add README file"
 ```
 
-Push everything commited on the remote git repository
+- **Push everything commited on the remote git repository**
 ```
 git push -u origin main
 
@@ -181,7 +181,7 @@ Use this command:  ```git checkout -b new-branch``` to create and switch to new-
 Get a copy of the project from the git repository: https://github.com/filkovaivana1/Programming-Languages.git 
 
 ### Solution
-Simply by choosing clone from the drop down menu on github link:
+Choose clone from the drop down menu on github link:
 
 Or by this commands in terminal:
 ```
@@ -190,11 +190,10 @@ git clone https://github.com/filkovaivana1/Programming-Languages.git
 ```
 
 
-## Example 5: Delete repository
-Get the project from the following git repository link: 
+## Example 5: Delete repository 
 
 ### Solution
-For deleting local repo use this command in terminal:
+- **For deleting and getting status of local repo** use this commands in terminal:
 ```
    git status
    rm -fr .git
@@ -203,5 +202,5 @@ For deleting local repo use this command in terminal:
 After successful deleting on getting the status we should get message: 
 ```Fatal: not a git repository (or any of the parent directories): .git```
 
-For deleting a repo remotely to github: Go to Settings -> General tab -> (scroll down to) Danger Zone -> Delete this repository
+- **For deleting a repo remotely to github**: Go to Settings -> General tab -> (scroll down to) Danger Zone -> Delete this repository
  
