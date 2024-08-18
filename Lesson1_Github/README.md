@@ -26,7 +26,7 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 - **Initialize empty repository**: Use `git init`
 
-- **Add changes in our working directory to the staging area**: Use `git add` to add changes in our working directory to staging area where we prepare a snapshot of our project’s current state before committing it to the repository. It tells Git what updates we want to include to a particular file in the next commit. However, changes are not actually recorded until runing git commit.
+- **Add changes in our working directory to the staging area**: Use `git add` to add changes in our working directory to staging area where we prepare a snapshot of our project’s current state before committing it to the repository. It tells Git what updates we want to include to a particular file in the next commit. However, changes are not actually recorded until running git commit.
 
 - **Save the changes - and leave a specific message for the changes done**: `git commit -m `.
 
