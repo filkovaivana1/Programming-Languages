@@ -15,11 +15,11 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 ## Where do we start?
 
-- **Create an account on GitHub**: Use `Files.createFile(Path)` for files or `Files.createDirectories(Path)` for directories.
+- **Create an account on GitHub**
 
 - **Learn how to post your work on GitHub using the key principles of collaborative working**
   
-- **Learn how to download the code for your own use.**
+- **Learn how to download the code for your own use**
 
 
 ## Common "GitHub Flow" Operations
