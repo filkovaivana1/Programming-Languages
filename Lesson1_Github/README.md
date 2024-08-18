@@ -154,12 +154,12 @@ Add our code in the local git repository
 git add .
 ```
 
-We commit our changes
+Commit our changes
 ```
 git commit -m "Add README file"
 ```
 
-And finaly we push everything we commited on the remote git repository
+Push everything commited on the remote git repository
 ```
 git push -u origin main
 
@@ -182,14 +182,14 @@ Use this command:  ```git checkout -b new-branch``` to create and switch to new-
 
 
 ## Example 4: Take already existing project
-Set the current working directry to some new directory and get a copy of the project from the git repository: https://github.com/filkovaivana1/Programming-Languages.git 
+Get a copy of the project from the git repository: https://github.com/filkovaivana1/Programming-Languages.git 
 
 ### Solution
 Simply by choosing clone from the drop down menu on github link:
 
-Or by this command in terminal:
+Or by this commands in terminal:
 ```
-cd [project_directory]
+cd [new_project_directory]
 git clone https://github.com/filkovaivana1/Programming-Languages.git
 ```
 
