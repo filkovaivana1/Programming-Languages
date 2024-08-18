@@ -54,7 +54,7 @@ Following the github flow operations, create a new simple Java "Hello world" pro
 
 We will do this by using command prompt approach. 
 
-- **TO DO STEPS**:
+**TO DO** STEPS:
 - **Create an github account by entering email, password and username**
 
 - **Verify our account by entering code sent on email.** 
@@ -63,7 +63,7 @@ We will do this by using command prompt approach.
 
 - **Choose create repository and give the repostory name.**
 
-- **After creating new repository, we see all required commands to push already existing and new repository (we follow the commands for creating new repository)**:
+- **After creating new repository, we see all required commands to push already existing and new repository** (we follow the commands for creating new repository):
 ```
 echo "# Programming-Languages" >> README.md
 git init
