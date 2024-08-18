@@ -15,7 +15,7 @@ GitHub is a website and cloud-based platform where we can store, manage, share c
 
 ## Where do we start?
 
-- **Create an account on GitHub**: Use `Files.createFile(Path)` for files or `Files.createDirectories(Path)` for directories.
+- **Create an account on GitHub**.
 
 - **Learn the key principles of collaborative working 
   - **Branches**
