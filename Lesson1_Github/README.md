@@ -122,9 +122,8 @@ git push -u origin main
 ```
 
 But pushing for the frist time will require some preauthorization: 
-![image](https://github.com/user-attachments/assets/55ad39c6-239f-49a6-8f86-7fc768d21b86)
 
-![image](https://github.com/user-attachments/assets/e2d5b8b4-ead3-4a40-8711-6b3502fcd9be)
+![image](https://github.com/user-attachments/assets/55ad39c6-239f-49a6-8f86-7fc768d21b86)
 
 After successful preauthorization we can continue pushing our changes and if everything as needed we will get response message that pushing code is done 
 ![image](https://github.com/user-attachments/assets/6a6afcb3-618a-4b89-a97c-d57d28a902fc)
