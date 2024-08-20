@@ -125,4 +125,4 @@ By looking at this code we may see a bug immediately, or maybe we don't. After r
 4. Also from the debug window down see all active variables with their values, and by clicking the little carrot we see the **whole structure and what the entire contents** of myList are: "first", "second" and "third", and we can just keep drilling down as to what the details of all this information is (really valuable because get down to pretty low level details about what our variables are doing and what state they're in). 
 5. Immediately after adding this breakpoint if we run the debugger we can look through the contents in the debugger window so we can tell almost immediately why it would fail our check (way more useful than rerunning our code twice or ten times or whatever it is adding the log statement that tells us where our code is going wrong). 
 
-## Conclusion: **In a situation like this it is lot faster and easier to use a debugger.**
+## Conclusion: **It is lot faster and easier to use a debugger.**
