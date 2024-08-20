@@ -60,22 +60,22 @@ int a = 2;
 ![image](https://github.com/user-attachments/assets/34818bc7-e57a-482f-9c24-1f0236939b59)
 
 6. **The little checkmark on the break point says that we did hit the break point** - the first line from that break point will be highlited meaning we are currently on that line, and next to it we can also see the variables set right now which are set when the codeline is executed, and until the execution of that codeline the debugger won't know about the a variable yet.
-7. Next we **step over** - even though our break point was at line "a=2" we are now still breaking at line "b=5". From here we can see that our value of a is 2
+7. Next we **step over** - even though our break point was at line ```a=2``` we are now still breaking at line ```b=5```. From here we can see that our value of a is 2
 ![image](https://github.com/user-attachments/assets/1cb67df4-c82d-4e00-a37b-040b7558428f)
 
 9. If **step over one more time** we see that now our value of b is set to 5
 ![image](https://github.com/user-attachments/assets/31d7c081-9a49-444b-b3c3-b6dc60c210cb)
 
-11. If we **skip few times** we can see that next to the line "int aTimesB = a * b;" it says "a:2,  b:5 and aTimesB:10"
+11. If we **skip few times** we can see that next to the line ```int aTimesB = a * b;``` it says ```a:2,  b:5 and aTimesB:10```
 ![image](https://github.com/user-attachments/assets/69bec9a8-7ea3-4fdf-b235-cc1fdbe0a64b)
 
-13. On the next skipping the **next highlighted line** is "if (aTimesB > c)" and next to it it says "c:10, aTimesB:10" telling us what next is going to happen (on the next skip we will hit the else block and print "Smaller").
-14. Now that we know how the program would execute in that situation, we **rerun the debugger** (by clicking on green bug again) and then we will be back at where we just started back at line "int a=2"
+13. On the next skipping the **next highlighted line** is ```if (aTimesB > c)``` and next to it it says ```c:10, aTimesB:10``` telling us what next is going to happen (on the next skip we will hit the else block and print "Smaller").
+14. Now that we know how the program would execute in that situation, we **rerun the debugger** (by clicking on green bug again) and then we will be back at where we just started back at line ```int a=2```
 15. **Hit step over again** - the code will behave like the last time
-16. In order to **see the program behaviour if a was a different value** - instead of changing the value of a, and then rerun the code or rerun the debugger, we set the values of the variables while the debugger is running by clicking on the little up arrow on the "a:2" and set the new value (let's say set value to 9)
+16. In order to **see the program behaviour if a was a different value** - instead of changing the value of a, and then rerun the code or rerun the debugger, we set the values of the variables while the debugger is running by clicking on the little up arrow on the ```a:2``` and set the new value (let's say set value to 9)
 ![image](https://github.com/user-attachments/assets/31ae2588-b2e3-4f65-8a7c-e9e63761b007)
 
-18. Now **step through the code again for a few times** and see now we hit the first branch "aTimesB > c" and thus print "Bigger". Beside every codeline we can see the newly set values for the variables, so we can see that now that value of a is 9 (meaning our product is 45 and thus greater than 10). Now that we know that we are going to hit the first statment, we go ahead and hit resume (on the left side bar on the play button on the debug window and now we print "Bigger").
+18. Now **step through the code again for a few times** and see now we hit the first branch ```aTimesB > c``` and thus print "Bigger". Beside every codeline we can see the newly set values for the variables, so we can see that now that value of a is 9 (meaning our product is 45 and thus greater than 10). Now that we know that we are going to hit the first statment, we go ahead and hit resume (on the left side bar on the play button on the debug window and now we print "Bigger").
 ![image](https://github.com/user-attachments/assets/61a11d21-2ce3-44f3-8353-1f6e5bbc163e)
 ![image](https://github.com/user-attachments/assets/08a682e9-11ac-4367-9ea5-e3e0df449736)
 
