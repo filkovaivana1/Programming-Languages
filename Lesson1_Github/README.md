@@ -63,7 +63,6 @@ echo "# Programming-Languages" >> README.md
 git init
 git add README.md
 git commit -m "This is my first commit, let's have some fun!"
-git branch -M main
 git remote add origin https://github.com/filkovaivana1/Programming-Languages.git
 git push -u origin main
 ```
@@ -157,7 +156,7 @@ git commit -m "Add README file"
 
 - **Push everything commited on the remote git repository**
 ```
-git push -u origin main
+git push -u origin master
 
 ```
 
