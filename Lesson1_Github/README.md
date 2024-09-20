@@ -55,7 +55,7 @@ Following the github flow operations, create your Github repository and create a
 
 - **Login** to our github account
 
-- **Choose create repository** and give the repostory name.
+- **Choose create repository** and give the repostory name in following way: "Firstname_Lastname_indexNumber".
 
 - **After creating new repository** we see all commands required to push already existing and new repository (we follow the commands for creating new repository):
 ```
@@ -154,47 +154,3 @@ git commit -m "Add README file"
 git push -u origin master
 
 ```
-
-## Example 3: Upload to a new branch
-Same as Example 1 but upload it to a new branch called "new-branch": 
-
-### Solution
-Use this command:  ```git checkout -b new-branch``` to create and switch to new-branch
-
-```
-	cd [project_directory]
-	git checkout -b new-branch
-	git add .
-	git commit -m "commit on new branch!"
-	git push -u origin new-branch
-
-```
-
-
-## Example 4: Take already existing project
-Get a copy of the project from the git repository: https://github.com/filkovaivana1/Programming-Languages.git 
-
-### Solution
-Choose clone from the drop down menu on github link:
-
-Or by this commands in terminal:
-```
-cd [new_project_directory]
-git clone https://github.com/filkovaivana1/Programming-Languages.git
-```
-
-
-## Example 5: Delete repository 
-
-### Solution
-- **For deleting and getting status of local repo** use this commands in terminal:
-```
-   git status
-   rm -fr .git
-   git status
-```
-After successful deleting on getting the status we should get message: 
-```Fatal: not a git repository (or any of the parent directories): .git```
-
-- **For deleting a repo remotely to github**: Go to Settings -> General tab -> (scroll down to) Danger Zone -> Delete this repository
- 
