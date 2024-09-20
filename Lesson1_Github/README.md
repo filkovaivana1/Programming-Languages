@@ -64,7 +64,7 @@ git init
 git add README.md
 git commit -m "This is my first commit, let's have some fun!"
 git remote add origin https://github.com/filkovaivana1/Programming-Languages.git
-git push -u origin main
+git push -u origin master
 ```
 
 - **Create simple "Hello world !" Java project** which after creating should look like:
@@ -95,11 +95,6 @@ cd [project_directory]
 git init
 ```
 
-- **Add main branch**:
-```
-git branch -M main
-```
-
 - **And set the remote origin** to be our remote repository (which means everything we push will go there):
 ```
 git remote add origin https://github.com/filkovaivana1/Programming-Languages.git
@@ -117,7 +112,7 @@ git commit -m "This is my first commit, let's have some fun!"
 
 - **Finaly push everything we commited on the remote git repository**
 ```
-git push -u origin main
+git push -u origin master
 ```
 
 *Note: Pushing for the frist time may require some preauthorization
