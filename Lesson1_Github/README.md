@@ -117,9 +117,6 @@ git push -u origin master
 
 *Note: Pushing for the frist time may require some preauthorization
 
-![image](https://github.com/user-attachments/assets/55ad39c6-239f-49a6-8f86-7fc768d21b86)
-
-
 After successful preauthorization we continue pushing our changes and if everything as it should be, we get response message that last operation is done:
 
 ![image](https://github.com/user-attachments/assets/6a6afcb3-618a-4b89-a97c-d57d28a902fc)
